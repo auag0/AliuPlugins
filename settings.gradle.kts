@@ -1,4 +1,4 @@
-rootProject.name = "AliucordPlugins"
+rootProject.name = "AliuPlugins"
 
 File(rootDir, "/plugins").list()?.forEach { pluginName ->
     include(":$pluginName")
